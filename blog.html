@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/blog.css" />
+    <link rel="stylesheet" href="/css/media.css" />
+    <link rel="shortcut icon" href="/img/logo/biglogo.png" type="image/x-icon"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+      @import url("https://fonts.cdnfonts.com/css/made-outer-sans-alt");
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+        <!-- navigation -->
+      <div class="navigation">
+        <div class="navigation__logo">
+          <a href="/index.html"
+            ><img src="/img/logo/biglogo.png" alt="Logo"
+          /></a>
+        </div>
+        <div class="navigation__menu">
+          <a href="/index.html#home">Home</a>
+          <a href="/about_us.html">About Us</a>
+          <a href="/events.html">Events</a>
+          <a href="/music.html">Music</a>
+          <a href="#blog"><u>Blog</u></a>
+          <a href="index.html#contact">Contact Us</a>
+        </div>
+        <div class="navigation__buttom">
+          <a href="#!" id="getticket">GET TICKETS</a>
+        </div>
+      </div>
+      <!-- Ticket modal -->
+      <div class="modal" id="modal-1">
+        <div class="modal__content">
+          <button class="modal__close-button">
+            <img src="./img/logo/krest.png" width="18" alt="" />
+          </button>
+          <img src="/img/modal/foto1.png" />
+          <div class="modal__content_title">
+            <h1>Deep <span>House</span></h1>
+            <h2>Jan 10, 2025, 8:00 am - 5:00 pm</h2>
+            <h4>Air centre London</h4>
+            <h4>London, UK</h4>
+          </div>
+          <form>
+            <label for="ticket" id="ticket">Choose your ticket plan</label>
+            <select id="ticket" name="ticket">
+              <option value="silver">Silver plan</option>
+              <option value="silver">Gold plan</option>
+              <option value="silver">Vip plan</option>
+            </select>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" />
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" />
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+            <label for="numb">Number of tickets</label>
+            <input type="number" id="numd" />
+            <input type="submit" value="Buy Tickets" />
+          </form>
+        </div>
+      </div>
+      <!-- Blog content -->
+      <div class="blog" id="#blog">
+        <div class="body__articles">
+            
+            <h3>Articles <span>From Our </span>Visitors</h3>
+            <div class="blog__articles_blogs">
+              
+              <div class="blogs1">
+                <div class="blogs1_foto"></div>
+                <h5>The most amazing place in the whole world!</h5>
+                <p>If you, like me, love music very much and look for inspiration in it, then you definitely need to come to this festival.</p>
+                <div class="blogs1_info">
+                  <div class="blogs1_info_foto"></div>
+                  <div>
+                    <h6>POSTED BY:</h6>
+                    <h5>Kate Piterson</h5>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="blogs1">
+                <div class="blogs1_foto blogs1_foto2"></div>
+                <h5>A festival that shows itself from a different perspective.</h5>
+                <p>When you arrive at this festival you will be one person, but when the time comes to leave you will definitely not be the same person.</p>
+                <div class="blogs1_info blogs1_info2">
+                  <div class="blogs1_info_foto blogs1_info_foto2"></div>
+                  <div>
+                    <h6>POSTED BY:</h6>
+                    <h5>David Milton</h5>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="blogs1">
+                <div class="blogs1_foto blogs1_foto3"></div>
+                <h5>Crazy drive, storm of emotions, delight!</h5>
+                <p>I've never experienced anything like this. This festival is a real storm of emotions, experiences, and pleasures.</p>
+                <div class="blogs1_info">
+                  <div class="blogs1_info_foto blogs1_info_foto3"></div>
+                  <div>
+                    <h6>POSTED BY:</h6>
+                    <h5>Innet Makennis</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blogs1">
+                <div class="blogs1_foto blogs1_foto4"></div>
+                <h5>An event that everyone should attend.</h5>
+                <p>I liked it very much. The atmosphere is amazing, it’s as if you fall out of reality and find yourself in another world.</p>
+                <div class="blogs1_info">
+                  <div class="blogs1_info_foto blogs1_info_foto4"></div>
+                  <div>
+                    <h6>POSTED BY:</h6>
+                    <h5>Mike Kiris</h5>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="blogs1">
+                <div class="blogs1_foto blogs1_foto5"></div>
+                <h5>Music, style, atmosphere, fun, emotions.</h5>
+                <p>An amazing festival that will allow you to relax and unwind 100%.</p>
+                <div class="blogs1_info blogs1_info5">
+                  <div class="blogs1_info_foto blogs1_info_foto5"></div>
+                  <div>
+                    <h6>POSTED BY:</h6>
+                    <h5>Mine Kejeck</h5>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="blogs1">
+                <div class="blogs1_foto blogs1_foto6"></div>
+                <h5>Where is the best place to relax? GJI festival!</h5>
+                <p>If you, like me, are constantly busy with work, everyday routine and don’t know how to relax, then come here.</p>
+                <div class="blogs1_info">
+                  <div class="blogs1_info_foto blogs1_info_foto6"></div>
+                  <div>
+                    <h6>POSTED BY:</h6>
+                    <h5>Alina Henrika</h5>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="blogs1">
+                <div class="blogs1_foto blogs1_foto7"></div>
+                <h5>Enter the world of music and relax with all your heart!</h5>
+                <p>At this festival I was able to relax very well, listen to music, and meet interesting people.</p>
+                <div class="blogs1_info">
+                  <div class="blogs1_info_foto blogs1_info_foto7"></div>
+                  <div>
+                    <h6>POSTED BY:</h6>
+                    <h5>Dmitrij Vegas</h5>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="blogs1">
+                <div class="blogs1_foto blogs1_foto8"></div>
+                <h5>Relaxation for your ears, rest for your soul.</h5>
+                <p>The music is just great, I've never been to places like this. I liked it very much.</p>
+                <div class="blogs1_info blogs1_info5">
+                  <div class="blogs1_info_foto blogs1_info_foto8"></div>
+                  <div>
+                    <h6>POSTED BY:</h6>
+                    <h5>Jone Dou</h5>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="blogs1">
+                <div class="blogs1_foto blogs1_foto9"></div>
+                <h5>A new, unknown world of opportunities.</h5>
+                <p>The world of feelings, the world of emotions, the world of ecstasy. I will come here again and again every year!</p>
+                <div class="blogs1_info">
+                  <div class="blogs1_info_foto blogs1_info_foto9"></div>
+                  <div>
+                    <h6>POSTED BY:</h6>
+                    <h5>Linda Emilson</h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

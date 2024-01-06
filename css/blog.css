@@ -1,0 +1,56 @@
+.blog {
+  margin-top: 150px;
+}
+.blog__articles_blogs {
+  margin-top: 94px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1410px;
+  flex-wrap: wrap;
+}
+.blogs1 {
+  margin-bottom: 100px;
+}
+.blogs1_foto4 {
+  background-image: url(/img/articles/backfoto4.png);
+}
+.blogs1_info_foto4 {
+  background-image: url(/img/articles/avatar4.png);
+}
+.blogs1_foto5 {
+  background-image: url(/img/articles/backfoto5.png);
+  background-position: 50%;
+}
+.blogs1_info_foto5 {
+  background-image: url(/img/articles/avatar5.png);
+}
+.blogs1_info5 {
+  padding-top: 65px;
+}
+.blogs1_foto6 {
+  background-image: url(/img/articles/backfoto6.png);
+}
+.blogs1_info_foto6 {
+  background-image: url(/img/articles/avatar6.png);
+}
+.blogs1_foto7 {
+  background-image: url(/img/articles/backfoto7.png);
+  background-position: 50%;
+}
+.blogs1_info_foto7 {
+  background-image: url(/img/articles/avatar7.png);
+}
+.blogs1_foto8 {
+  background-image: url(/img/articles/backfoto8.png);
+  background-position: 50%;
+}
+.blogs1_info_foto8 {
+  background-image: url(/img/articles/avatar8.png);
+}
+.blogs1_foto9 {
+  background-image: url(/img/articles/backfoto9.png);
+}
+.blogs1_info_foto9 {
+  background-image: url(/img/articles/avatar9.png);
+}

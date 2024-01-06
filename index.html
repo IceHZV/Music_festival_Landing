@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="/img/logo/biglogo.png" type="image/x-icon"/>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+      @import url("https://fonts.cdnfonts.com/css/made-outer-sans-alt");
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navigation">
+        <div class="navigation__logo">
+          <a href="/index.html"><img src="/img/logo/biglogo.png" alt="Logo" /></a>
+        </div>
+        <div class="navigation__menu">
+          <a href="#home"><u>Home</u></a>
+          <a href="/about_us.html">About Us</a>
+          <a href="/events.html">Events</a>
+          <a href="/music.html">Music</a>
+          <a href="/blog.html">Blog</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+        <div class="navigation__buttom">
+          <a href="#!" id="getticket">GET TICKETS</a>
+        </div>
+      </div>
+      <!-- Ticket modal -->
+      <div class="modal" id="modal-1">
+        <div class="modal__content">
+          <button class="modal__close-button"><img src="./img/logo/krest.png" width="18" alt=""></button>
+          <img src="/img/modal/foto1.png">
+          <div class="modal__content_title">
+          <h1>Deep <span>House</span></h1>
+          <h2>Jan 10, 2025, 8:00 am - 5:00 pm</h2>
+          <h4>Air centre London</h4>
+          <h4>London, UK</h4>
+          </div>
+          <form>
+            <label for="ticket" id="ticket">Choose your ticket plan</label>
+            <select id="ticket" name="ticket">
+              <option value="silver">Silver plan</option>
+              <option value="silver">Gold plan</option>
+              <option value="silver">Vip plan</option>
+            </select>
+              <label  for="fname">First name</label>
+              <input type="text" id="fname">
+              <label  for="lname">Last name</label>
+              <input type="text" id="lname">
+              <label  for="email">Email</label>
+              <input type="email" id="email">
+              <label for="numb">Number of tickets</label>
+              <input type="number" id="numd">
+              <input type="submit" value="Buy Tickets">
+            
+          </form>
+        </div>
+      </div>
+      <!-- Header -->
+      <div class="header" id="home">
+        <div class="header__social">
+          <div class="header__social_left">
+            <a href="mailto:Info@NSM.com">Dji@gmail.com</a>
+          </div>
+          <div class="header__social_right">
+            <a href="#!"><img src="/img/logo/logobagwhite.png" alt="bag" /></a>
+            <a href="#!"
+              ><img src="/img/logo/logoyoutubewhite.png" alt="youtube"
+            /></a>
+            <a href="#!"
+              ><img src="/img/logo/logoinstwhite.png" alt="instagram"
+            /></a>
+            <a href="#!"
+              ><img src="/img/logo/logofacewhite.png" alt="facebook"
+            /></a>
+            <a href="#!"><img src="/img/logo/logoInwhite.png" alt="in" /></a>
+          </div>
+        </div>
+        <div class="header__title">
+          <h2>
+            This Week<br />
+            Deep House
+          </h2>
+          <h1>Music</h1>
+        </div>
+        <div class="header__show">
+          <div class="header__show_left">
+            <div class="header__show_left_nb">
+              <h4>10</h4>
+            </div>
+            <div class="header__show_left_title">
+              <p>Jan 2025</p>
+              <p>8:00 am - 5:00 pm</p>
+            </div>
+          </div>
+          <div class="header__show_right">
+            <div class="header__show_right_title">
+              <h4>Musika Live Show</h4>
+              <p>Air centre, London, UK</p>
+            </div>
+            <div class="header__show_right_timer">
+              <div class="timer-item">
+                <span id="days">00</span>
+                <span class="label">Days</span>
+              </div>
+              <div class="timer-item">
+                <span id="hours">00</span>
+                <span class="label">HRS</span>
+              </div>
+              <div class="timer-item">
+                <span id="minutes">00</span>
+                <span class="label">MINS</span>
+              </div>
+              <div class="timer-item">
+                <span id="seconds">00</span>
+                <span class="label">SEC</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="body">
+        <!-- singer -->
+        <div class="body__singer">
+          <div class="body__singer_left" data-aos="fade-down">
+            <h3>
+              I Write <span>Soundtracks</span> and <span>Songs</span> For
+              Events, Shows and Albums. I Love Music
+            </h3>
+            <p>
+              Music is my life. When I write music, I completely immerse myself
+              in myself, in my thoughts, in my inner world. Therefore, the
+              resulting tracks reflect my inner self better than anyone else.
+            </p>
+            <a href="/about_us.html">More information</a>
+          </div>
+          <div class="body__singer_right" data-aos="fade-up"></div>
+        </div>
+        <!-- Songs -->
+        <div class="body__songs">
+          <h3>Festival <span>Releases New</span> Songs and Music</h3>
+          <p>Listen and download new tracks from our wonderful artists.</p>
+
+          <div class="body__songs_slider">
+            <div class="song_foto">
+              <input class="radio1" name="gallery" id="rad1" type="radio" />
+
+              <label for="rad1"><h5>Nelly Furtado</h5>
+                <p>Sep 10, 2023</p>
+                <audio controls>
+                  <source
+                    src="/audio/Nelly Furtado — Maneater.mp3"
+                    type="audio/mpeg"
+                  />
+                </audio></label>
+            </div>
+            <div class="song_foto">
+              <input
+                class="radio1 radio2"
+                name="gallery"
+                id="rad2"
+                type="radio" checked
+              />
+
+              <label for="rad2">
+                <h5>Måneskin</h5>
+                <p>Oct 25, 2023</p>
+                <audio controls>
+                  <source
+                    src="/audio/måneskin_-_zitti_e_buoni_muzter.net.mp3"
+                    type="audio/mpeg"
+                  />
+                </audio>
+              </label>
+            </div>
+            <div class="song_foto">
+              <input
+                class="radio1 radio3"
+                name="gallery"
+                id="rad3"
+                type="radio"
+              />
+
+              <label for="rad3"><h5>Kate Bush</h5>
+                <p>Oct 01, 2023</p>
+                <audio controls>
+                  <source
+                    src="/audio/kate-bush-running-up-that-hill-kream-remix.mp3"
+                    type="audio/mpeg"
+                  /></label>
+            </div>
+          </div>
+
+          <a href="/music.html">Download Album</a>
+        </div>
+        <!-- Artists -->
+        
+          <div class="body__artists">
+
+            <div class="body__artists_main">
+                <div class="body__artists_main_info" data-aos="fade-right">
+                    <h5>Performing Artist</h5>
+                    <div class="line"></div>
+                    <h3>Karol <span>Whisper</span></h3>
+                    <h6>Guitar Artist</h6>
+                    <p>Feel the sound of music with me. Music is a thrill. Music is life. Music is all world.</p>
+                    <div> 
+                        <a href="#!"><img src="/img/logo/logoyoutubepink.png" alt="youtube"/></a>
+                        <a href="#!"><img src="/img/logo/logoinstpink.png" alt="instagram"/></a>
+                        <a href="#!"><img src="/img/logo/logofacepink.png" alt="facebook"/></a>
+                        <a href="#!"><img src="/img/logo/logoinpink.png" alt="in" /></a>
+                    </div>    
+                </div>
+                <div class="body__artists_main_foto" data-aos="fade-left"></div>
+            </div>
+
+            <div class="body__artists_main">
+              <div class="body__artists_main_info">
+                  <h5>DJ Artist</h5>
+                  <div class="line"></div>
+                  <h3>Holger <span>Zilske</span></h3>
+                  <h6>Electronic Music</h6>
+                  <p>The beat permeates the body from bottom to top, my music can make any person feel high.</p>
+                  <div> 
+                      <a href="#!"><img src="/img/logo/logoyoutubepink.png" alt="youtube"/></a>
+                      <a href="#!"><img src="/img/logo/logoinstpink.png" alt="instagram"/></a>
+                      <a href="#!"><img src="/img/logo/logofacepink.png" alt="facebook"/></a>
+                      <a href="#!"><img src="/img/logo/logoinpink.png" alt="in" /></a>
+                  </div>    
+              </div>
+              <div class="body__artists_main_foto main_foto2"></div>
+            </div>
+
+            <div class="body__artists_main">
+              <div class="body__artists_main_info">
+                  <h5>Singer Artist</h5>
+                  <div class="line"></div>
+                  <h3>Ban <span>Treskinski</span></h3>
+                  <h6>Guitar-Singer Artist</h6>
+                  <p>When I sing, it’s as if the whole world around me is filled with bright colors and emotions. So feel them with me.</p>
+                  <div> 
+                      <a href="#!"><img src="/img/logo/logoyoutubepink.png" alt="youtube"/></a>
+                      <a href="#!"><img src="/img/logo/logoinstpink.png" alt="instagram"/></a>
+                      <a href="#!"><img src="/img/logo/logofacepink.png" alt="facebook"/></a>
+                      <a href="#!"><img src="/img/logo/logoinpink.png" alt="in" /></a>
+                  </div>    
+              </div>
+              <div class="body__artists_main_foto main_foto3"></div>
+            </div>
+
+            <div class="body__artists_main">
+              <div class="body__artists_main_info">
+                  <h5>DJ Artist/Music Producer</h5>
+                  <div class="line"></div>
+                  <h3>Ksenia <span>Kamikaza</span></h3>
+                  <h6>Techno Music</h6>
+                  <p>She puts listeners on a rhythm and sound journey you cannot leave once you have stepped in. </p>
+                  <div> 
+                      <a href="#!"><img src="/img/logo/logoyoutubepink.png" alt="youtube"/></a>
+                      <a href="#!"><img src="/img/logo/logoinstpink.png" alt="instagram"/></a>
+                      <a href="#!"><img src="/img/logo/logofacepink.png" alt="facebook"/></a>
+                      <a href="#!"><img src="/img/logo/logoinpink.png" alt="in" /></a>
+                  </div>    
+              </div>
+              <div class="body__artists_main_foto main_foto4"></div>
+            </div>
+
+            <div class="body__artists_main">
+              <div class="body__artists_main_info">
+                  <h5>Singer Artist</h5>
+                  <div class="line"></div>
+                  <h3>Kate <span>Blige</span></h3>
+                  <h6>Vocal Music</h6>
+                  <p>Kate's stunning voice will make your mouths open in surprise, come to the festival and hear it all for yourself.</p>
+                  <div> 
+                      <a href="#!"><img src="/img/logo/logoyoutubepink.png" alt="youtube"/></a>
+                      <a href="#!"><img src="/img/logo/logoinstpink.png" alt="instagram"/></a>
+                      <a href="#!"><img src="/img/logo/logofacepink.png" alt="facebook"/></a>
+                      <a href="#!"><img src="/img/logo/logoinpink.png" alt="in" /></a>
+                  </div>    
+              </div>
+              <div class="body__artists_main_foto main_foto5"></div>
+            </div>
+
+            <div class="body__artists_main">
+              <div class="body__artists_main_info">
+                  <h5>Performance Artist</h5>
+                  <div class="line"></div>
+                  <h3>Jone <span>Cohen</span></h3>
+                  <h6>Saxophone Artist</h6>
+                  <p>The sound of the saxophone gives special rhythms, special emotions, special feelings.</p>
+                  <div> 
+                      <a href="#!"><img src="/img/logo/logoyoutubepink.png" alt="youtube"/></a>
+                      <a href="#!"><img src="/img/logo/logoinstpink.png" alt="instagram"/></a>
+                      <a href="#!"><img src="/img/logo/logofacepink.png" alt="facebook"/></a>
+                      <a href="#!"><img src="/img/logo/logoinpink.png" alt="in" /></a>
+                  </div>    
+              </div>
+              <div class="body__artists_main_foto main_foto6"></div>
+            </div>
+
+            <div class="body__artists_nav">
+              <a class="prev" onclick="plusSlides(-1)">&lArr;</a>
+              <a class="next" onclick="plusSlides(1)">&rArr;</a>
+            </div>
+
+          </div>
+        
+        <!-- Events -->
+        <div class="body__events">
+          <div>
+            <h4>Highlights Of The Night</h4>
+            <div class="line"></div>
+          </div>
+          <h3>Event <span>Tickets</span></h3>
+          <p>You can buy tickets of three different levels for our festival.</p>
+          <div class="body__events_ticket">
+
+            <div class="ticket-body">
+              <h6>SILVER PLAN</h6>
+              <h2>50<sub>euro</sub></h2>
+              <p>The silver package includes a festival ticket and entry to the base area.</p>
+              <a href="#!" class="get-modal_1">Get Ticket</a>
+            </div>
+
+            <div class="ticket-body ticket-body2">
+              <h6>GOLD PLAN</h6>
+              <h2>70<sub>euro</sub></h2>
+              <p>The gold package includes a festival ticket, entry to the all area.</p>
+              <a href="#!" class="get-modal_1">Get Ticket</a>
+            </div>
+
+            <div class="ticket-body ticket-body3">
+              <h6>VIP PLAN</h6>
+              <h2>100<sub>euro</sub></h2>
+              <p>The vip package includes a festival ticket, entry to the all area, free alcoholic drinks. </p>
+              <a href="#!" class="get-modal_1">Get Ticket</a>
+            </div>
+
+          </div>
+        </div>
+        <!-- Foto gallery -->
+        <div class="body__gallery">
+          <div class="body__gallery_line1">
+            <div class="line1_left">
+              <h3>Best Moments <span>From the<br> 
+                Festival</span> Try to catch</h3>
+              <p>These great photos will help you feel the atmosphere of the festival.</p>
+            </div>
+            <div class="line1_right" data-aos="zoom-in-down">
+              <div class="line1_right_foto1"></div>
+              <div class="line1_right_foto2"></div>
+            </div>
+          </div>
+          <div class="body__gallery_line2">
+            <div class="line2_left" data-aos="flip-up">
+              <div class="line2_left_foto1"></div>
+              <div class="line2_left_foto2"></div>
+            </div>
+            <div class="line2_right" data-aos="flip-down"></div>
+          </div>
+          <div class="body__gallery_line3" data-aos="zoom-in-up">
+            <h3>Follow Us On Social Media</h3>
+            <p>Subscribe to us on social networks, the latest news regarding the festival will be published there.</p>
+            <a href="#!">Follow US</a>
+          </div>
+        </div>
+
+        <!-- Articles -->
+        <div class="body__articles">
+          <div>
+            <h4>Stay Up To Date</h4>
+            <div class="line"></div>
+          </div>
+          <h3>Recent <span>Articles</span></h3>
+          <div class="body__articles_blogs">
+            
+            <div class="blogs1">
+              <div class="blogs1_foto"></div>
+              <h5>The most amazing place in the whole world!</h5>
+              <p>If you, like me, love music very much and look for inspiration in it, then you definitely need to come to this festival.</p>
+              <div class="blogs1_info">
+                <div class="blogs1_info_foto"></div>
+                <div>
+                  <h6>POSTED BY:</h6>
+                  <h5>Kate Piterson</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="blogs1">
+              <div class="blogs1_foto blogs1_foto2"></div>
+              <h5>A festival that shows itself from a different perspective.</h5>
+              <p>When you arrive at this festival you will be one person, but when the time comes to leave you will definitely not be the same person.</p>
+              <div class="blogs1_info blogs1_info2">
+                <div class="blogs1_info_foto blogs1_info_foto2"></div>
+                <div>
+                  <h6>POSTED BY:</h6>
+                  <h5>David Milton</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="blogs1">
+              <div class="blogs1_foto blogs1_foto3"></div>
+              <h5>Crazy drive, storm of emotions, delight!</h5>
+              <p>I've never experienced anything like this. This festival is a real storm of emotions, experiences, and pleasures.</p>
+              <div class="blogs1_info">
+                <div class="blogs1_info_foto blogs1_info_foto3"></div>
+                <div>
+                  <h6>POSTED BY:</h6>
+                  <h5>Innet Makennis</h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer" id="contact">
+        <div class="footer__contact">
+
+          <div class="footer__contact_block">
+            <div><img src="/img/logo/footerphone.png"></div>
+            <div>
+              <h5>Phone</h5>
+              <p>+880 1723 801 729</p>
+            </div>
+          </div>
+
+          <div class="footer__contact_block">
+            <div><img src="/img/logo/footeremail.png"></div>
+            <div>
+              <h5>Email</h5>
+              <a href="mailto:dji@gmail.com">dji@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="footer__contact_block">
+            <div><img src="/img/logo/footeraddress.png"></div>
+            <div>
+              <h5>Address</h5>
+              <p>123 New Yourk E Block 12670,
+                Street 2101 UAE</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="footer__gallery">
+          <img src="/img/footergallery/foto5.png">
+          <img src="/img/footergallery/foto2.png">
+          <img src="/img/footergallery/foto1.png">
+          <img src="/img/footergallery/foto3.png">
+          <img src="/img/footergallery/foto4.png">
+          <img src="/img/footergallery/foto6.png">
+        </div>
+
+        <h3>Subscribe to Newsletter</h3>
+        <p>Subscribe to our mailing list to get the updates to your email inbox.</p>
+
+        <div class="footer__emsubmit">
+          <form>
+          <input type="email" placeholder="     Email">
+          <a href="#!">Submit</a>
+          </form>
+        </div>
+
+        <div class="footer__social">
+          <a href="#!">Facebook</a>
+          <a href="#!">Instagram</a>
+          <a href="#!">Twitter</a>
+          <a href="#!">Sound Cloud</a>
+        </div>
+
+        <h6>Copyright @DGI - 2020</h6>
+
+
+
+
+      </div>
+      <!-- Footer end -->
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

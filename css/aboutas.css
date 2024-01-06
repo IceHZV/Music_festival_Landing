@@ -1,0 +1,51 @@
+.aboutus {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.aboutus__content {
+  display: flex;
+}
+.aboutus__content_title {
+  width: 960px;
+  height: 850px;
+}
+.aboutus__content_title h3 {
+  padding: 100px 0px 30px 100px;
+}
+
+.aboutus__content_title span {
+  color: #ff3179;
+}
+.aboutus__content_title p {
+  padding-left: 100px;
+  font-weight: 400;
+  font-size: 24px;
+  width: 800px;
+  color: #02234e;
+  line-height: 2.5;
+}
+.aboutus__content_foto {
+  width: 960px;
+  height: 850px;
+  background-image: url(/img/aboutus/foto1.png);
+  background-position: 50%;
+}
+.content_foto2 {
+  background-image: url(/img/aboutus/foto2.png);
+}
+.content_foto3 {
+  background-image: url(/img/aboutus/foto3.png);
+}
+.content_foto4 {
+  background-image: url(/img/aboutus/foto4.png);
+}
+.content_foto5 {
+  background-image: url(/img/aboutus/foto5.png);
+  background-position: 100% 100%;
+}
+.content_foto6 {
+  background-image: url(/img/aboutus/foto6.png);
+}

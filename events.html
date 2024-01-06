@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/events.css" />
+    <link rel="stylesheet" href="/css/media.css" />
+    <link
+      rel="shortcut icon"
+      href="/img/logo/biglogo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+      @import url("https://fonts.cdnfonts.com/css/made-outer-sans-alt");
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- navigation -->
+      <div class="navigation">
+        <div class="navigation__logo">
+          <a href="/index.html"
+            ><img src="/img/logo/biglogo.png" alt="Logo"
+          /></a>
+        </div>
+        <div class="navigation__menu">
+          <a href="/index.html#home">Home</a>
+          <a href="/about_us.html">About Us</a>
+          <a href="#events"><u>Events</u></a>
+          <a href="/music.html">Music</a>
+          <a href="/blog.html">Blog</a>
+          <a href="index.html#contact">Contact Us</a>
+        </div>
+        <div class="navigation__buttom">
+          <a href="#!" id="getticket">GET TICKETS</a>
+        </div>
+      </div>
+      <!-- Ticket modal -->
+      <div class="modal" id="modal-1">
+        <div class="modal__content">
+          <button class="modal__close-button">
+            <img src="./img/logo/krest.png" width="18" alt="" />
+          </button>
+          <img src="/img/modal/foto1.png" />
+          <div class="modal__content_title">
+            <h1>Deep <span>House</span></h1>
+            <h2>Jan 10, 2025, 8:00 am - 5:00 pm</h2>
+            <h4>Air centre London</h4>
+            <h4>London, UK</h4>
+          </div>
+          <form>
+            <label for="ticket" id="ticket">Choose your ticket plan</label>
+            <select id="ticket" name="ticket">
+              <option value="silver">Silver plan</option>
+              <option value="silver">Gold plan</option>
+              <option value="silver">Vip plan</option>
+            </select>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" />
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" />
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+            <label for="numb">Number of tickets</label>
+            <input type="number" id="numd" />
+            <input type="submit" value="Buy Tickets" />
+          </form>
+        </div>
+      </div>
+      <!-- Events content -->
+      <div class="events" id="events">
+        <h3>Rock <span>Band </span>Stage</h3>
+        <p>The stage where rock bands will perform.</p>
+        <img
+          src="/img/events/foto1.png"
+          alt="Rock Stage"
+          data-aos="zoom-in-right"
+        />
+
+        <h3>Deep <span>House </span>Stage</h3>
+        <p>Stage for electronic music.</p>
+        <img
+          src="/img/events/foto2.png"
+          alt="Deep house Stage"
+          data-aos="zoom-in-left"
+        />
+
+        <h3>Vocal <span>Singer </span>Stage</h3>
+        <p>Stage for vocal music.</p>
+        <img
+          src="/img/events/foto3.png"
+          alt="Vocal music Stage"
+          data-aos="zoom-in-right"
+        />
+
+        <h3>Instrumental <span>Performance </span>Stage</h3>
+        <p>Stage for instrumental music.</p>
+        <img
+          src="/img/events/foto4.png"
+          alt="Instrumental music Stage"
+          data-aos="zoom-in-left"
+        />
+
+        <h3>Main <span>Stage </span></h3>
+        <p>The main stage at the festival.</p>
+        <img
+          src="/img/events/foto5.png"
+          alt="Main Stage"
+          data-aos="zoom-in-right"
+        />
+
+        <h3>One <span>Of Many </span>Bars</h3>
+        <p>Places to buy drinks</p>
+        <img src="/img/events/foto6.png" alt="Bar" data-aos="zoom-in-left" />
+
+        <h3>One <span>Of Many </span>Photo Areas</h3>
+        <p>The best places for your photos.</p>
+        <img
+          src="/img/events/foto7.png"
+          alt="Photo Areas"
+          data-aos="zoom-in-right"
+        />
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,496 @@
+@media (max-width: 1400px) {
+  .wrapper {
+    width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header__show {
+    width: 1336px;
+  }
+  /* body singer */
+  .body__singer_left {
+    width: 835px;
+  }
+  .body__singer_left h3,
+  .body__singer_left p {
+    margin-left: 107px;
+  }
+
+  /* body singer end*/
+  /* body artists */
+
+  .body__artists {
+    width: 1336px;
+  }
+
+  .body__artists_main_info {
+    padding-left: 50px;
+    width: 500px;
+  }
+  .body__artists_main_info p {
+    width: 405px;
+  }
+  .body__artists_main_foto {
+    width: 656px;
+  }
+
+  /* body artists end*/
+
+  /* body events */
+
+  .body__events {
+    width: 1336px;
+  }
+  .body__events_ticket {
+    width: 1336px;
+  }
+  .ticket-body {
+    width: 400px;
+  }
+  /* body events end*/
+
+  /* body gallery */
+
+  .body__gallery_line1 h3 {
+    padding-top: 72px;
+    padding-left: 159px;
+  }
+  .body__gallery_line1 p {
+    padding-top: 30px;
+    padding-left: 159px;
+    line-height: 1.5;
+  }
+  .line1_right_foto2 {
+    width: 460px;
+  }
+
+  /* body gallery end*/
+  /* body articles */
+
+  .body__articles_blogs {
+    width: 1336px;
+  }
+
+  .blogs1 {
+    width: 430px;
+  }
+  .blogs1_foto {
+    width: 430px;
+  }
+
+  /* body articles end*/
+  /* footer */
+
+  .footer__contact {
+    width: 1305px;
+  }
+
+  /* footer end*/
+  /* about us css */
+  .aboutus__content_title {
+    width: 668px;
+  }
+  .aboutus__content_foto {
+    width: 668px;
+  }
+  .aboutus__content_title h3 {
+    padding: 50px 0px 10px 50px;
+  }
+  .aboutus__content_title p {
+    padding-left: 50px;
+    width: 660px;
+  }
+
+  /* about us css end*/
+
+  /* events css */
+
+  .events img {
+    width: 1336px;
+  }
+
+  /* events css end*/
+
+  /* music css */
+
+  .music__treck {
+    width: 1310px;
+  }
+
+  /* music css end*/
+
+  /* blogs css */
+
+  .blog__articles_blogs {
+    width: 1310px;
+  }
+  /* blogs css end*/
+}
+
+/* mobile media 375px*/
+
+@media (max-width: 400px) {
+  .wrapper {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Modal */
+  .modal__content select {
+    width: 280px;
+  }
+  .modal__content input:not(:last-child) {
+    width: 280px;
+  }
+
+  /* Modal end*/
+
+  /* Navigation */
+  .navigation {
+    height: 70px;
+  }
+  .navigation__menu {
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 210px;
+  }
+  .navigation a {
+    padding-right: 10px;
+    line-height: 1.2;
+  }
+  .navigation__logo {
+    padding-top: 20px;
+  }
+
+  .navigation__buttom {
+    padding-top: 25px;
+  }
+  .navigation__menu a:not(:last-child) {
+    padding-right: 36px;
+  }
+  .navigation__buttom a {
+    font-size: 12px;
+    padding: 10px 5px;
+    color: rgb(255, 255, 255);
+    background-color: #ff3179;
+    border-radius: 15px;
+  }
+
+  /* NAvigation end */
+  /* Header */
+
+  .header__social {
+    display: none;
+  }
+  .header__show {
+    width: 375px;
+  }
+  .header {
+    height: 460px;
+  }
+  .header__title h2 {
+    font-size: 50px;
+  }
+  .header__title h1 {
+    font-size: 100px;
+  }
+  .header__show_left_nb {
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 3px;
+  }
+  .header__show_left_title {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1;
+    padding-left: 8px;
+  }
+  .header__show_right_title {
+    text-align: left;
+    padding: 25px 0px 0px 10px;
+  }
+  .header__show_right_title h4 {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .header__show_right_title p {
+    font-size: 12px;
+  }
+  .timer-item {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 16px;
+    color: #02234e;
+    padding-right: 10px;
+  }
+
+  /* header end */
+  /* body singer */
+  h3 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .body__singer {
+    flex-wrap: wrap;
+  }
+  .body__singer_left {
+    width: 375px;
+    height: 450px;
+  }
+  .body__singer_left h3 {
+    width: 360px;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .body__singer_left span {
+    color: #ff3179;
+    font-weight: 500;
+  }
+  .body__singer_left p {
+    font-size: 16px;
+    width: 370px;
+    line-height: 1.5;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .body__singer_left a {
+    margin-left: 85px;
+  }
+  .body__singer_right {
+    margin-top: 0px;
+    width: 375px;
+    background-position: cover;
+    background-position: 20% 155%;
+  }
+
+  /* body singer end*/
+  /* body songs */
+  .body__songs {
+    margin-top: 200px;
+  }
+  .body__songs h3 {
+    width: 375px;
+    padding-bottom: 15px;
+  }
+  .body__songs > p {
+    padding-bottom: 55px;
+  }
+  .body__songs_slider {
+    display: none;
+  }
+  /* Body Artists */
+  .body__artists {
+    width: 375px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .body__artists_main_info {
+    width: 200px;
+    padding-left: 5px;
+  }
+  .body__artists_main_info h5 {
+    padding-top: 0px;
+  }
+  .body__artists_main_info p {
+    width: 145px;
+  }
+  .body__artists_main_foto {
+    width: 160px;
+    height: 170px;
+    background-size: cover;
+  }
+  .prev,
+  .next {
+    left: 220px;
+    margin: 50px;
+    padding: 10px;
+  }
+
+  /* Body Artists end*/
+  /* Body Events */
+  .body__events {
+    width: 375px;
+  }
+  .body__events_ticket {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ticket-body {
+    margin-top: 90px;
+    width: 375px;
+    height: 495px;
+  }
+
+  /* Body Events end*/
+  /* Body Foto gallery */
+  .body__gallery {
+    margin-bottom: 35px;
+  }
+  .body__gallery_line1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .body__gallery_line1 h3 {
+    padding-top: 0px;
+    padding-left: 29px;
+  }
+  .body__gallery_line1 p {
+    padding-top: 26px;
+    padding-left: 29px;
+  }
+  .line1_left {
+    width: 375px;
+    height: 195px;
+  }
+  .line1_right {
+    width: 375px;
+    height: 990px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .line2_left {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .line2_left_foto2 {
+    width: 375px;
+  }
+  .body__gallery_line2 {
+    flex-wrap: wrap;
+    height: 1485px;
+  }
+
+  /* Body Foto gallery end*/
+  /* Body Articles */
+
+  .body__articles_blogs {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 375px;
+    height: 1920px;
+  }
+  .blogs1 {
+    margin-bottom: 25px;
+    width: 375px;
+  }
+  .blogs1_foto {
+    width: 375px;
+  }
+  /* Body Articles end*/
+
+  /* Footer*/
+
+  .footer {
+    height: 738px;
+    background-image: linear-gradient(
+      to bottom,
+      #ff3179,
+      #ff3179 354px,
+      white 355px,
+      white 685px,
+      #ff3179 686px,
+      #ff3179
+    );
+  }
+  .footer__contact {
+    padding-top: 20px;
+    width: 375px;
+    flex-wrap: wrap;
+  }
+  .footer__contact p {
+    margin-bottom: 15px;
+  }
+  .footer__gallery {
+    display: none;
+  }
+  .footer h3 {
+    padding-top: 25px;
+  }
+  .footer__emsubmit input {
+    width: 180px;
+    height: 50px;
+  }
+  .footer__emsubmit a {
+    font-size: 16px;
+    padding: 17px 33px;
+    margin-left: 8px;
+  }
+  .footer__social {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 48px 0px 35px 30px;
+  }
+  /* Footer end*/
+
+  /* events css */
+  .events {
+    padding-top: 50px;
+  }
+  .events img {
+    width: 375px;
+    height: 210px;
+    padding-bottom: 20px;
+  }
+  /* events css end*/
+
+  /* about us css */
+
+  .aboutus {
+    margin-top: 20px;
+  }
+  .aboutus__content {
+    flex-wrap: wrap;
+  }
+  .aboutus__content_title {
+    width: 375px;
+    height: 550px;
+  }
+  .aboutus__content_title h3 {
+    padding: 20px 0px 30px 20px;
+  }
+  .aboutus__content_title p {
+    padding-left: 20px;
+    font-size: 18px;
+    width: 370px;
+    line-height: 1.5;
+  }
+  .aboutus__content_foto {
+    width: 375px;
+    height: 550px;
+    background-size: cover;
+  }
+
+  /* about us css end */
+  /* music css */
+  .music {
+    margin-top: 50px;
+  }
+  .music__treck {
+    width: 370px;
+  }
+  .music__treck_content {
+    margin: 0px;
+    width: 370px;
+    margin-bottom: 20px;
+  }
+  .music__treck_content p {
+    padding-bottom: 50px;
+  }
+
+  /* music css end*/
+  /* blog */
+  .blog {
+    margin-top: 50px;
+  }
+  .blog__articles_blogs {
+    width: 375px;
+  }
+  /* blog end*/
+}

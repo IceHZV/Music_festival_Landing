@@ -1,0 +1,24 @@
+.events {
+  padding-top: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.events span {
+  color: #ff3179;
+}
+.events p {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: #02234e;
+  font-weight: 400;
+  font-size: 16px;
+}
+.events img {
+  width: 1420px;
+  height: 800px;
+  padding-bottom: 100px;
+}
