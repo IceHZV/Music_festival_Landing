@@ -1,4 +1,4 @@
-https://icehzv.github.io/Music_festival_Landing/ - Music Festival Lending
+https://icehzv.github.io/Music_festival_Landing/ - Music Festival Landing
 
 - Bem class naming
 - Some main styles in main.css header
