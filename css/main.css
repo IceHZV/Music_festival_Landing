@@ -224,7 +224,7 @@ h3 {
   width: 100%;
   height: 860px;
   text-align: center;
-  background-image: url(/img/background/header3.1.jpg);
+  background-image: url(../img/background/header3.1.jpg);
   background-position: contain;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -422,7 +422,7 @@ h3 {
   margin-top: 131px;
   width: 935px;
   height: 700px;
-  background-image: url(/img/background/guitarplayer1.png);
+  background-image: url(../img/background/guitarplayer1.png);
   background-position: 50% 100%;
   background-repeat: no-repeat;
 }
@@ -499,17 +499,17 @@ h3 {
   left: -150px;
   width: 410px;
   height: 436px;
-  background-image: url(/img/bodysongs/bodysongs1.jpg);
+  background-image: url(../img/bodysongs/bodysongs1.jpg);
   background-size: cover;
   cursor: pointer;
   filter: brightness(60%);
   border-radius: 10px;
 }
 .radio2 + label:before {
-  background-image: url(/img/bodysongs/bodysongs2.jpg);
+  background-image: url(../img/bodysongs/bodysongs2.jpg);
 }
 .radio3 + label:before {
-  background-image: url(/img/bodysongs/bodysongs3.jpg);
+  background-image: url(../img/bodysongs/bodysongs3.jpg);
 }
 .radio1:checked + label:before {
   position: absolute;
@@ -646,25 +646,25 @@ h3 {
   width: 690px;
   height: 600px;
   border-radius: 15px;
-  background-image: url(/img/artists/artist1.png);
+  background-image: url(../img/artists/artist1.png);
   background-position: 50% 100%;
 }
 .main_foto2 {
-  background-image: url(/img/artists/artist2.png);
+  background-image: url(../img/artists/artist2.png);
   background-position: 50% 70%;
 }
 .main_foto3 {
-  background-image: url(/img/artists/artist3.png);
+  background-image: url(../img/artists/artist3.png);
   background-position: 100% 40%;
 }
 .main_foto4 {
-  background-image: url(/img/artists/artist4.png);
+  background-image: url(../img/artists/artist4.png);
 }
 .main_foto5 {
-  background-image: url(/img/artists/artist5.png);
+  background-image: url(../img/artists/artist5.png);
 }
 .main_foto6 {
-  background-image: url(/img/artists/artist6.png);
+  background-image: url(../img/artists/artist6.png);
 }
 .body__artists_nav {
   width: 120px;
@@ -723,13 +723,13 @@ h3 {
   height: 148px;
   top: -15%;
   left: 35%;
-  background-image: url(/img/events/europink.png);
+  background-image: url(../img/events/europink.png);
 }
 .ticket-body2:after {
-  background-image: url(/img/events/euroorange.png);
+  background-image: url(../img/events/euroorange.png);
 }
 .ticket-body3::after {
-  background-image: url(/img/events/europurple.png);
+  background-image: url(../img/events/europurple.png);
 }
 .ticket-body h6 {
   padding-top: 58px;
@@ -822,13 +822,13 @@ h3 {
 .line1_right_foto1 {
   width: 375px;
   height: 495px;
-  background-image: url(/img/gallery/line1foto1.png);
+  background-image: url(../img/gallery/line1foto1.png);
   background-position: contain;
 }
 .line1_right_foto2 {
   width: 570px;
   height: 495px;
-  background-image: url(/img/gallery/line1foto2.png);
+  background-image: url(../img/gallery/line1foto2.png);
   background-position: 50%;
 }
 .body__gallery_line2 {
@@ -842,23 +842,23 @@ h3 {
 .line2_left_foto1 {
   width: 375px;
   height: 495px;
-  background-image: url(/img/gallery/line2foto1.png);
+  background-image: url(../img/gallery/line2foto1.png);
   background-position: 50%;
 }
 .line2_left_foto2 {
   width: 600px;
   height: 495px;
-  background-image: url(/img/gallery/line2foto2.png);
+  background-image: url(../img/gallery/line2foto2.png);
 }
 .line2_right {
   width: 945px;
-  background-image: url(/img/gallery/line2foto3.png);
+  background-image: url(../img/gallery/line2foto3.png);
   background-position: 50%;
 }
 .body__gallery_line3 {
   width: 100%;
   height: 495px;
-  background-image: url(/img/gallery/line3foto1.png);
+  background-image: url(../img/gallery/line3foto1.png);
   background-position: 50%;
   text-align: center;
 }
@@ -948,13 +948,13 @@ h3 {
   height: 330px;
   width: 450px;
   border-radius: 15px 15px 0px 0px;
-  background-image: url(/img/articles/backfoto1.png);
+  background-image: url(../img/articles/backfoto1.png);
 }
 .blogs1_foto2 {
-  background-image: url(/img/articles/backfoto2.png);
+  background-image: url(../img/articles/backfoto2.png);
 }
 .blogs1_foto3 {
-  background-image: url(/img/articles/backfoto3.png);
+  background-image: url(../img/articles/backfoto3.png);
 }
 .blogs1_info {
   display: flex;
@@ -982,14 +982,14 @@ h3 {
   width: 69px;
   height: 69px;
   border-radius: 50%;
-  background-image: url(/img/articles/avatar1.png);
+  background-image: url(../img/articles/avatar1.png);
   background-position: 50%;
 }
 .blogs1_info_foto2 {
-  background-image: url(/img/articles/avatar2.png);
+  background-image: url(../img/articles/avatar2.png);
 }
 .blogs1_info_foto3 {
-  background-image: url(/img/articles/avatar3.png);
+  background-image: url(../img/articles/avatar3.png);
 }
 
 /* Body Articles End */

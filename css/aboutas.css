@@ -30,22 +30,22 @@
 .aboutus__content_foto {
   width: 960px;
   height: 850px;
-  background-image: url(/img/aboutus/foto1.png);
+  background-image: url(../img/aboutus/foto1.png);
   background-position: 50%;
 }
 .content_foto2 {
-  background-image: url(/img/aboutus/foto2.png);
+  background-image: url(../img/aboutus/foto2.png);
 }
 .content_foto3 {
-  background-image: url(/img/aboutus/foto3.png);
+  background-image: url(../img/aboutus/foto3.png);
 }
 .content_foto4 {
-  background-image: url(/img/aboutus/foto4.png);
+  background-image: url(../img/aboutus/foto4.png);
 }
 .content_foto5 {
-  background-image: url(/img/aboutus/foto5.png);
+  background-image: url(../img/aboutus/foto5.png);
   background-position: 100% 100%;
 }
 .content_foto6 {
-  background-image: url(/img/aboutus/foto6.png);
+  background-image: url(../img/aboutus/foto6.png);
 }

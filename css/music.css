@@ -16,34 +16,34 @@
   margin: 40px;
   width: 466px;
   height: 516px;
-  background-image: url(/img/bodysongs/bodysongs1.jpg);
+  background-image: url(../img/bodysongs/bodysongs1.jpg);
   background-size: cover;
   color: rgb(255, 255, 255);
   border-radius: 10px;
 }
 .content2 {
-  background-image: url(/img/bodysongs/bodysongs2.jpg);
+  background-image: url(../img/bodysongs/bodysongs2.jpg);
 }
 .content3 {
-  background-image: url(/img/bodysongs/bodysongs3.jpg);
+  background-image: url(../img/bodysongs/bodysongs3.jpg);
 }
 .content4 {
-  background-image: url(/img/music/treck4.png);
+  background-image: url(../img/music/treck4.png);
 }
 .content5 {
-  background-image: url(/img/music/treck5.png);
+  background-image: url(../img/music/treck5.png);
 }
 .content6 {
-  background-image: url(/img/music/treck6.png);
+  background-image: url(../img/music/treck6.png);
 }
 .content7 {
-  background-image: url(/img/music/treck7.png);
+  background-image: url(../img/music/treck7.png);
 }
 .content8 {
-  background-image: url(/img/music/treck8.png);
+  background-image: url(../img/music/treck8.png);
 }
 .content9 {
-  background-image: url(/img/music/treck9.png);
+  background-image: url(../img/music/treck9.png);
 }
 
 .music__treck_content h5 {
